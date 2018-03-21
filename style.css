@@ -15,18 +15,16 @@ header {
 body {
     background-color: #dddacc;
 }
-
+p {
+    color: rgb(4, 4, 48);
+    padding-bottom: 1rem;
+}
 img {
 	width: 500px;
     max-height: 500px;
     border-radius: 8px;
+    padding-bottom: 1rem;
 }   
-
-img.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
 
 img.displayed {
     display: block;
@@ -37,6 +35,14 @@ img.displayed {
 figure figcaption {
     text-align: center;
     color:rgb(32, 32, 148);
+    padding-bottom: 1rem;
+}
+
+#night-images {
+    width: 40%;
+    display: float;
+    float:left;
+    padding: 2rem;
 }
 
 /* Footer */

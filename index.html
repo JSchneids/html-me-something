@@ -11,34 +11,62 @@
         
         <main>
             <article>
-                <p class ="intro_paragraph"> My trip to Ancorage Alaska was a trip of a lifetime. I will narrate it from start to finish. </p>
+                <p class ="intro_paragraph"> My trip to Ancorage Alaska was a trip of a lifetime. I will show key highlights of the trip. I went on the trip with two friend Tim and Evan. We had to fly to Anchorage and then take a plane out to main destination of Port Alsworth. Port Alsworth is west of Ancorage and has 100 year round residents. It was the first time in  Alaska for all three of us.  </p>
                 <section>
-                    <a name="boulder"></a>
                     <h2 id="trip_segments">Leaving Anchorage</h2>
-                    <p>My trip......................................................................</p>
+                    <p>The first adventure of the trip was the flight to Port Alsworth. The plane was a tiny twin engine aircraft. We had to have the weight of our bags be exact. When packing for the trip we had to plan for this flight. </p>
                     <figure>
                         <a href="https://imgur.com/hF6m5Yb"><img class= "displayed" img src="https://i.imgur.com/hF6m5Yb.jpg" title="Alaska"/></a>
                         <figcaption>Flatlands just outside of Anchorage</figcaption>
                     </figure>
                 </section>
                 <section>
-                        <a name="boulder"></a>
                         <h2 id="trip_segments">Arrival in Port Alsworth</h2>
-                        <p>My trip................................content...........................</p>
+                        <p>There were many float planes. There was a tiny gravel landing strip as well. </p>
                         <figure>
-                            <a href="https://imgur.com/NMJu7NC"><img src="https://i.imgur.com/NMJu7NC.jpg" title="Cessna"/></a>
+                            <a href="https://imgur.com/NMJu7NC"><img class= "displayed" img src="https://i.imgur.com/NMJu7NC.jpg" title="Cessna"/></a>
                             <figcaption>Plane I flew in on</figcaption>
                         </figure> 
+                </section>
+                <section>
+                        <h2 id="trip_segments"> Hike to remote lake </h2>
+                        <p>We had an eleven mile hike to this lake. It was a tough hike as there was no trails which made you have to watch each step carefully. It was beautiful as were able to pass through multiple biomes. I especially enjoyed walking through the frozen tundra. </p>
+                        <figure>
+                            <img class= "displayed" img src="./images/tent.JPG" alt="image withinfolder"/>
+                            <figcaption>Campsite by the lake</figcaption>
+                        </figure>
+                </section>
+                <section>
+                        <h2 id="trip_segments"> Return to civilization </h2>
+                            <p>After the trip we had fours days in Anchorage. We did not have any plans besides staying at this youth hostel. The only room we could reserve was one with multiple roomates. We ended up biking around town, fishing and exploring the town.   </p>
+                        <div id="night-images">
+                            <img style = 'last_photos' href="https://imgur.com/MRdXHDm"><img src="https://i.imgur.com/MRdXHDm.jpg" title="Bacpkackers Inn">
+                            <img style = 'last_photos' href="https://imgur.com/vz0E6dl"></href><img src="https://i.imgur.com/vz0E6dl.jpg" title="Sign Downtown">
+                        </div>
                     </section>
                     <section>
-                            <a name="boulder"></a>
-                            <h2 id="trip_segments"> Hike to remote lake </h2>
-                            <p>My trip................................content...........................</p>
-                            <figure>
-                                <img src="./images/tent.JPG" alt="image withinfolder"/>
-                                <figcaption>Plane I flew in on</figcaption>
-                            </figure>
-                        </section>
+                            <h2>My First Google Map</h2>
+
+                            <div id="map" style="width:400px;height:400px;background:blue"></div>
+                            <script>
+                            function myMap() {
+                            var mapOptions = {
+                                center: new google.maps.LatLng(51.5, -0.12),
+                                zoom: 10,
+                                mapTypeId: google.maps.MapTypeId.HYBRID
+                            }
+                            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                            }
+                            </script>
+                            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB34g2g89oDr4MKsjBQQMD4vIssT6SZXbs&callback=initMap"></script>
+                            <iframe
+                            width="600"
+                            height="450"
+                            frameborder="0" style="border:0"
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB34g2g89oDr4MKsjBQQMD4vIssT6SZXbs
+                                &q=Space+Needle,Seattle+WA" allowfullscreen>
+                            </iframe>
+                    </section>
             </article>
         </main>
 
