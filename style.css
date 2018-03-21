@@ -1,12 +1,17 @@
 
 header {
-    font-family: 'Georgia', sans-serif;
+    font-family: Tahoma, Geneva, sans-serif;
     text-align: center;
     font-size: 1em;
     background-color: #1f5224;
     border: 1px solid rgb(95, 95, 95);
 }
-
+.intro_paragraph {
+    color:rgb(0, 110, 255)
+}
+#trip_segments {
+    color:green;
+}
 body {
     background-color: #dddacc;
 }
@@ -16,6 +21,13 @@ img {
     max-height: 500px;
     border-radius: 8px;
 }   
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
 img.displayed {
     display: block;
     margin-left: auto;
@@ -24,6 +36,7 @@ img.displayed {
 
 figure figcaption {
     text-align: center;
+    color:rgb(32, 32, 148);
 }
 
 /* Footer */
